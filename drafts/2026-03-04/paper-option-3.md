@@ -1,40 +1,26 @@
-# Paper Option 3: On the Physical Nature of the Scalar Mode Mass in the Jordan frame of a Metric f(R) gravity
+# Generalised All-Optical Cat Correction
 
 ## Metadata
+- **ArXiv ID:** 2603.03263v1
+- **Category:** quant-ph
+- **Published:** 2026-03-03T18:53:54Z
+- **URL:** https://arxiv.org/abs/2603.03263v1
 
-| Field | Value |
-|-------|-------|
-| **Title** | On the Physical Nature of the Scalar Mode Mass in the Jordan frame of a Metric f(R) gravity |
-| **arXiv ID** | 2603.02124 |
-| **Authors** | Andrea Valletta |
-| **Category** | gr-qc (General Relativity and Quantum Cosmology) |
-| **Submission Date** | Mon, 2 Mar 2026 17:42:40 UTC |
-| **Pages** | 7 |
+## Authors
+- Ari John Boon
+- Olivier Landon-Cardinal
+- Nicolás Quesada
 
 ## Abstract
+We have generalised an all-optical telecorrection protocol for the higher orders of the cat code, and show that with these higher orders we can achieve target performance at substantially reduced iteration counts at the cost of a higher mean photon-number. We also introduce a probabilistic scheme for correcting deformation of the state, which highlights two interesting abilities of telecorrection: to encode new sets of transformations, and to change the basis of the code. We find that for a target channel fidelity of $99.9\%$ over a channel with $1\text{ dB}$ of loss, a third-order cat code requires $70$ times fewer telecorrection iterations than a first-order one, at a cost of a $3.6$-fold increase in mean photon-number.
 
-We analyze the Taylor expansion of metric f(R) gravity in the Jordan frame around the General Relativity limit. By relating the scalar-tensor representation to the original f(R) formulation, we derive constraints on the expansion parameters from the observed value of the present-day ΛCDM deceleration parameter and from cosmological bounds on the variation of Newton's constant. 
+## Summary
+[To be filled in with detailed analysis]
 
-We show that these requirements imply that the scalar degree of freedom must have a mass exceeding the Hubble scale by several orders of magnitude. This result challenges the common assumption that the scalar mode can drive cosmological dynamics with a mass of order H₀. 
+## Key Insights
+- [Insight 1]
+- [Insight 2]
+- [Insight 3]
 
-We provide a dynamical interpretation of this hierarchy by emphasizing that a proper definition of the scalar mass, in a field-theoretical sense, requires an adiabatic separation between background evolution and perturbations, which naturally leads to a super-Hubble mass scale.
-
-## Key Topics
-
-- Modified gravity
-- f(R) gravity
-- Jordan frame
-- Scalar-tensor theory
-- Cosmological constraints
-- Hubble parameter
-- Gravitational theory
-
-## Research Implications
-
-This work addresses fundamental questions about the mass hierarchy of scalar modes in modified gravity theories, with important implications for understanding how deviations from General Relativity behave at cosmological scales.
-
-## Links
-
-- **PDF**: https://arxiv.org/pdf/2603.02124
-- **arXiv**: https://arxiv.org/abs/2603.02124
-- **DOI**: https://doi.org/10.48550/arXiv.2603.02124
+## Relevance
+[To be filled in]
