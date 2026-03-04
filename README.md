@@ -1,75 +1,97 @@
-# Physics ArXiv Daily Summaries
+# Physics ArXiv Daily Blog
 
-Daily blog posts explaining cutting-edge physics papers in layman's terms.
+Daily breakdowns of cutting-edge physics papers. Layman's language, catchy explanations, connected to core concepts.
 
-**Author:** Francesco (Theoretical Physicist)  
-**Purpose:** Make frontier physics research accessible to curious people who want real understanding  
-**Cadence:** Daily (Mon-Fri, typically; optional weekends)
+**Author:** Francesco (Theoretical Physicist, 12+ years research)  
+**Schedule:** Daily at 5 AM UTC  
+**Output:** Substack + Medium + Twitter + Reddit
 
 ---
 
 ## Repository Structure
 
 ```
-physics-arxiv-repo/
-├── README.md (this file)
-├── CLOSING_PARAGRAPH.md (standard closing paragraph template)
+physics-arxiv-daily/
+├── README.md                          # This file
+├── CLOSING_PARAGRAPH.md               # Template footer for all blog posts
+├── PROGRESS.md                        # Metrics & engagement tracking
+│
 ├── drafts/
-│   ├── 2026-02-22/
-│   │   ├── paper.md (ArXiv link + metadata)
-│   │   ├── blog-post.md (full blog post draft)
-│   │   ├── twitter-thread.md (Twitter thread)
-│   │   ├── reddit-post.md (Reddit post)
-│   │   └── status.md (review status: PENDING / APPROVED / PUBLISHED)
-│   ├── 2026-02-23/
-│   └── ...
+│   ├── YYYY-MM-DD/                   # Daily draft papers (pre-publication)
+│   │   ├── paper-option-1.md         # ArXiv paper metadata + abstract
+│   │   ├── paper-option-2.md
+│   │   ├── paper-option-3.md
+│   │   ├── SUMMARY.md                # Quick overview of all 3 options
+│   │   └── SELECT_PAPER.md           # Selection workflow
+│   │
+│   └── 2026-03-04/
+│       ├── paper-option-1.md
+│       ├── paper-option-2.md
+│       ├── paper-option-3.md
+│       ├── SUMMARY.md
+│       └── SELECT_PAPER.md
+│
 ├── published/
-│   ├── 2026-02-22-dark-matter-lensing.md
-│   ├── 2026-02-23-higgs-discovery.md
+│   ├── 2026-02-24-dark-matter-evidence.md      # Full blog post (after publication)
+│   ├── 2026-02-25-gravitational-waves.md
 │   └── ...
+│
 └── archive/
-    └── (old summaries, organized by month)
+    └── 2026-02/                      # Monthly archives (deprecated drafts)
 ```
 
 ---
 
 ## Workflow
 
-### 1. **Draft Creation (Chiara, daily ~8 AM UTC)**
-- Pull 2-3 interesting papers from ArXiv (astro-ph.CO, hep-th, hep-ph, gr-qc, quant-ph)
-- Write blog post (800-1200 words, conversational, math-light, catchy)
+### 1. **Daily Paper Selection (5 AM UTC)**
+- **What:** Automated cron job fetches 2-3 interesting ArXiv papers
+- **Where:** Papers land in `drafts/YYYY-MM-DD/`
+- **Files created:**
+  - `paper-option-{1,2,3}.md` — metadata, authors, abstract, link
+  - `SUMMARY.md` — quick overview of all 3
+  - `SELECT_PAPER.md` — selection form
+
+### 2. **Your Review (Morning, ~15 mins)**
+- Read the 3 options in GitHub
+- Pick your favorite
+- Reply in Telegram: "option-1" (or 2, or 3)
+
+### 3. **Blog Post Generation (After your pick)**
+- I write full blog post (800-1200 words)
 - Generate Twitter thread + Reddit post
-- Push to `drafts/YYYY-MM-DD/` folder
-- Send Telegram notification with link
+- Push to `drafts/YYYY-MM-DD/blog-post.md`
+- Send you Telegram link for final review
 
-### 2. **Review & Approval (Francesco, ~9 AM UTC, 15-20 mins)**
-- Review blog post draft in GitHub
-- Check for accuracy, tone, clarity
-- Make edits or approve as-is
-- Update `status.md` to APPROVED
-
-### 3. **Publishing (Francesco, ~9:30 AM UTC, 10-15 mins)**
-- Copy blog post to Substack
+### 4. **Publishing (Your call, ~15 mins)**
+- You review blog post
+- Copy-paste to Substack
 - Cross-post to Medium
-- Post Twitter thread
+- Share Twitter thread
 - Post to Reddit (r/physics, r/cosmology, etc.)
-- Move final version to `published/` folder in GitHub
-- Update `status.md` to PUBLISHED
+- Move post to `published/YYYY-MM-DD-{slug}.md`
+
+### 5. **Archive (Monthly)**
+- At month-end, move completed `drafts/` to `archive/YYYY-MM/`
+- Keep active month in `drafts/`
 
 ---
 
 ## File Templates
 
-### `paper.md`
+### `paper-option-X.md`
 ```
 # Paper Metadata
 
 **Title:** [Paper title]
 **Authors:** [First author et al.]
-**ArXiv ID:** [e.g., 2405.12345]
-**Category:** [e.g., astro-ph.CO]
-**Date:** [Publication date]
-**Link:** https://arxiv.org/abs/[ID]
+**ArXiv ID:** [2603.02177]
+**Category:** [astro-ph.CO]
+**Date:** [2026-03-04]
+**Link:** https://arxiv.org/abs/2603.02177
+
+## Abstract
+[Full abstract from ArXiv]
 
 ## Key Concepts
 - [Concept 1]
@@ -77,158 +99,147 @@ physics-arxiv-repo/
 - [Concept 3]
 
 ## Why It Matters
-[1-2 sentence summary of significance]
+[Brief significance]
 
 ## Difficulty Level
-Easy / Medium / Hard (for reader)
+Easy / Medium / Hard
 ```
 
-### `blog-post.md`
+### `SUMMARY.md`
 ```
-# [Title - Catchy and Direct]
+# Daily ArXiv Summary — YYYY-MM-DD
 
-**Date:** YYYY-MM-DD
+**Status:** ✅ Papers fetched and ready for review
+**Generated at:** [timestamp]
 
-[Opening paragraph: hook + why it matters + what you'll learn]
+## Papers Found (3 Options)
+
+### Option 1: [Title]
+- ArXiv ID: [ID]
+- Category: [Category]
+- Key insight: [One sentence]
+- Difficulty: [Level]
+
+[Repeat for options 2 and 3]
+
+## Next Steps
+1. Review all three papers above
+2. Pick your favorite and reply in Telegram: "option-1" (or 2, or 3)
+3. I'll generate full blog post + Twitter + Reddit
+4. You review and publish
+
+## Publishing Timeline
+- 5 AM UTC: New papers fetched
+- Morning (your timezone): You review + pick
+- Afternoon: I write blog post
+- Evening: You review + publish
+```
+
+### `blog-post.md` (After you select)
+```
+# [Catchy Title - Direct and Intriguing]
+
+[Opening paragraph: Hook + why it matters + what you'll learn]
 
 ## Background: [Key Concept 1]
 [Explanation in layman's terms with analogy]
 
 ## Background: [Key Concept 2]
-[Explanation in layman's terms]
+[Explanation]
 
 ## The Research
-[What did they do? What did they find? How does it differ from before?]
+[What they did, what they found, how it differs from before]
 
 ## Why It Matters
 [Real-world implications and open questions]
 
 ## Connection to the Bigger Picture
-[How this relates to other areas of physics]
+[How this relates to other physics]
 
 ---
 
-[CLOSING PARAGRAPH - use template from CLOSING_PARAGRAPH.md]
-```
-
-### `twitter-thread.md`
-```
-# Twitter Thread
-
-**Thread starter (hook):**
-🧵 Scientists just discovered [surprising result]. If confirmed, it changes everything we thought about [topic]. Here's what it means:
-
-**Tweet 1:**
-[Point 1 in 280 chars max, with visual if possible]
-
-**Tweet 2:**
-[Point 2]
-
-**Tweet 3 (finale):**
-[Conclusion + link to blog post]
-
----
-Learn more: [link to Substack/Medium]
-```
-
-### `reddit-post.md`
-```
-# Reddit Post
-
-**Subreddit:** r/physics (or r/cosmology, r/Futurology, etc.)
-**Title:** [Title - should spark curiosity]
-
-**Body:**
-[Opening hook + 2-3 paragraphs explaining the paper]
-
-[Link to full blog post]
-
----
-
-Questions? Ask in comments!
-```
-
-### `status.md`
-```
-# Status Tracking
-
-| Field | Value |
-|-------|-------|
-| Date | 2026-02-22 |
-| Paper | [ArXiv ID] |
-| Status | PENDING / APPROVED / PUBLISHED |
-| Chiara Draft | ✓ Complete |
-| Francesco Review | [ ] Complete |
-| Substack | [ ] Published |
-| Medium | [ ] Published |
-| Twitter | [ ] Posted |
-| Reddit | [ ] Posted |
-| Notes | [Any issues, iterations, etc.] |
+[CLOSING PARAGRAPH — use template from CLOSING_PARAGRAPH.md]
 ```
 
 ---
 
-## Git Workflow (for Francesco)
+## Metrics & Tracking
 
-### Review & Approve
+Track in `PROGRESS.md`:
+- **Daily:** Views, email signups, engagement per platform
+- **Weekly:** Aggregated metrics, top-performing topics
+- **Monthly:** Trends, audience growth, key signals
+
+---
+
+## Git Workflow (For You)
+
+### Review & Pick Paper
 ```bash
 cd physics-arxiv-repo
 git pull origin main
-# Open drafts/YYYY-MM-DD/ in editor
-# Make edits
-git add .
-git commit -m "Review: approve draft for YYYY-MM-DD"
-git push origin main
+# Read drafts/YYYY-MM-DD/SUMMARY.md
+# Reply in Telegram: "option-X"
 ```
 
-### Move to Published
+### After Blog Post Is Written
 ```bash
-# After publishing to Substack/Medium/Twitter/Reddit:
-mv drafts/YYYY-MM-DD/blog-post.md published/YYYY-MM-DD-[slug].md
-rm -rf drafts/YYYY-MM-DD/
+# Review draft
+git pull origin main
+# Read drafts/YYYY-MM-DD/blog-post.md
+# Make edits if needed
 git add .
-git commit -m "Publish: [Date] - [Title]"
+git commit -m "Review: blog post for YYYY-MM-DD approved"
+git push origin main
+```
+
+### After Publishing
+```bash
+# Move to published + archive
+mv drafts/YYYY-MM-DD/blog-post.md published/YYYY-MM-DD-{slug}.md
+git add .
+git commit -m "Publish: YYYY-MM-DD - [Title]"
 git push origin main
 ```
 
 ---
 
-## Cadence
+## Monthly Cleanup
 
-- **Mon-Fri:** Daily post (standard)
-- **Sat-Sun:** Optional (post if interesting paper found, or skip)
-- **Reserve drafts:** Keep 2-3 extra drafts pre-written for backup (holiday, busy day, etc.)
-
----
-
-## Metrics & Feedback
-
-Track engagement externally:
-- Substack: Views, opens, signups
-- Medium: Views, reads, followers
-- Twitter: Impressions, engagements
-- Reddit: Upvotes, comments
-
-Update progress in this repo as a log (see `PROGRESS.md` below).
+**End of month:**
+```bash
+# Archive old drafts
+mkdir -p archive/YYYY-MM
+mv drafts/YYYY-MM-* archive/YYYY-MM/
+git add .
+git commit -m "Archive: YYYY-MM drafts"
+git push origin main
+```
 
 ---
 
-## Archive & Organization
+## Publishing Checklist
 
-**Monthly:** Move old drafts to `archive/YYYY-MM/`
+Before copying to Substack/Medium/Twitter:
 
-**Quarterly:** Review engagement data, identify top-performing topics
+- [ ] Blog post is clear and accessible (no jargon without explanation)
+- [ ] At least 1 analogy per concept
+- [ ] Links to related concepts embedded
+- [ ] Closing paragraph included
+- [ ] Twitter thread drafted (5-7 tweets max)
+- [ ] Reddit post drafted (platform-specific subreddit)
+- [ ] All links are working (ArXiv, related concepts, etc.)
 
 ---
 
 ## Questions?
 
-- Issues with drafts? Ping Chiara in Telegram
-- Need to adjust tone/style? Update `CLOSING_PARAGRAPH.md` and let me know
-- Want to change cadence or structure? Edit this README
+- Issues with the workflow? Ping in Telegram
+- Need to adjust structure? Edit this README
+- Want to change publishing times or platforms? Update schedule above
 
 ---
 
-**Last Updated:** 2026-02-21  
 **Repo Owner:** Francesco  
-**Automated by:** Chiara
+**Automated by:** Chiara (daily paper fetch + blog generation)  
+**Last Updated:** 2026-03-04
