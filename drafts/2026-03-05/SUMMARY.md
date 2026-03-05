@@ -1,92 +1,101 @@
-# ArXiv Daily Blog — Paper Selection Summary
+# Daily ArXiv Summary — 2026-03-05
 
-**Date:** Thursday, March 5, 2026  
-**Categories Searched:** astro-ph.CO, hep-th, hep-ph, gr-qc, quant-ph  
-**Papers Fetched:** 3  
-
----
-
-## Option 1: Post-inflationary Axion Constraints from the Lyman-α Forest
-
-**arXiv:** 2603.04401 | **Category:** astro-ph.CO  
-**Authors:** Olga Garcia Gallego  
-**Status:** Submitted
-
-### Why This Matters
-Direct observational constraints on dark matter candidates using high-precision Lyman-α forest data. Provides updated bounds on axion-like particles that are competitive with other large-scale structure probes.
-
-### Summary
-Uses Sherwood-Relics simulations to constrain isocurvature perturbations from post-inflationary axions. Reports tentative detection of non-zero isocurvature contribution, translating to ALP mass limits (m_a > 1.73 × 10^{-18} eV).
-
-### Blog Angle
-*"Dark matter searches get sharper: new Lyman-α forest analysis narrows the hunt for axion-like particles"* — Bridges cosmological observations with fundamental particle physics constraints.
+**Status:** ✅ Papers fetched and ready for review
+**Generated:** 2026-03-05 12:50 UTC
 
 ---
 
-## Option 2: Casimir Effect in Lorentz-Violating Aether
 
-**arXiv:** 2603.04371 | **Category:** hep-th  
-**Authors:** Klecio Emanuel Lima De Farias  
-**Status:** Submitted
+## Cosmology & Astrophysics
 
-### Why This Matters
-Explores how fundamental symmetry breaking (Lorentz violation) modifies quantum vacuum effects. Shows controllable transitions between attractive/repulsive Casimir forces—potential practical applications at nano scales.
+### Post-inflationary axion constraints from the Lyman-$α$ forest
 
-### Summary
-Analyzes Casimir effect in 5D spacetime with compactified extra dimension under Lorentz-violating aether field. Key finding: Lorentz violation amplifies vacuum interactions and enables force control via parameter β.
+**arXiv ID:** 2603.04401v1
+**Authors:** Olga Garcia-Gallego, Vid Iršič, Matteo Viel
 
-### Blog Angle
-*"Making the vacuum work: how Lorentz violation opens new control over quantum vacuum forces"* — Connects quantum field theory, symmetry breaking, and potential nanoscale engineering applications.
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoJTA5V9CrsuohEX9J'}]
 
 ---
 
-## Option 3: Gravitational Confinement of Ghost Scalar Fields in Neutron Stars
+### Exploring gas thermodynamics around galaxies from the Sunyaev-Zel'dovich effects: impact of galaxy-halo connection, 2D projection and velocity field
 
-**arXiv:** 2603.04400 | **Category:** gr-qc  
-**Authors:** Néstor Andrés Montiel Hernández  
-**Status:** Submitted
+**arXiv ID:** 2603.04397v1
+**Authors:** Sadaf Kadir, Bernardita Ried Guachalla, Sihan Yuan
 
-### Why This Matters
-Demonstrates that exotic ghost matter can be stably confined in neutron stars through gravity alone. Non-fine-tuned equilibrium solutions suggest this could be a generic astrophysical mechanism.
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoK6rTMQ7XeJHoKhHE'}]
 
-### Summary
-Studies ghost scalar fields (negative kinetic term) inside neutron stars using coupled Einstein-Euler-Klein-Gordon system. Shows neutron stars can gravitationally confine ghost matter with stable configurations and persistent oscillatory dynamics.
+---
 
-### Blog Angle
-*"Ghost matter finds a home: neutron stars as natural confinement vessels for exotic scalar fields"* — Connects quantum field theory exotica with extreme astrophysics.
+
+## High-Energy Physics (Theory)
+
+### Post-inflationary axion constraints from the Lyman-$α$ forest
+
+**arXiv ID:** 2603.04401v1
+**Authors:** Olga Garcia-Gallego, Vid Iršič, Matteo Viel
+
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoKiotKutN9eTQRCSc'}]
+
+---
+
+### Non-Hermitian Quantum Mechanics with Applications to Gravity
+
+**arXiv ID:** 2603.04375v1
+**Authors:** Oem Trivedi, Alfredo Gurrola, Robert J. Scherrer
+
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoLPzHM8Kj31StfisD'}]
+
+---
+
+
+## High-Energy Physics (Phenomenology)
+
+### Post-inflationary axion constraints from the Lyman-$α$ forest
+
+**arXiv ID:** 2603.04401v1
+**Authors:** Olga Garcia-Gallego, Vid Iršič, Matteo Viel
+
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoM4BHuJPUEUR5xbvY'}]
+
+---
+
+### A framework for missing-energy searches with anomalous light vectors
+
+**arXiv ID:** 2603.04394v1
+**Authors:** Luca Di Luzio, Marco Nardecchia, Stefano Scacco
+
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoMjrPT52saee3W1qy'}]
+
+---
+
+
+## General Relativity & Quantum Cosmology
+
+### Gravitational confinement of ghost scalar fields in neutron stars
+
+**arXiv ID:** 2603.04400v1
+**Authors:** Argelia Bernal, Víctor Jaramillo, Néstor A. Montiel-Hernández
+
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoNQnZ2TLUtS27PZRr'}]
+
+---
+
+### Non-Hermitian Quantum Mechanics with Applications to Gravity
+
+**arXiv ID:** 2603.04375v1
+**Authors:** Oem Trivedi, Alfredo Gurrola, Robert J. Scherrer
+
+[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoP6DGE191osDfE38n'}]
 
 ---
 
 ## Next Steps
 
-### To Select a Paper:
-1. Review the three options above
-2. Open `SELECT_PAPER.md` 
-3. Update with your choice and reasoning
-4. Blog post will be drafted based on selection
-
-### If None Resonate:
-- Expand search to additional categories (hep-ph, quant-ph)
-- Check papers from Mar 4 (previous batch still available)
-- Request different search parameters or date range
-
-### File Structure
-```
-drafts/2026-03-05/
-├── paper-option-1.md      (Axion constraints)
-├── paper-option-2.md      (Casimir + Lorentz violation)
-├── paper-option-3.md      (Ghost fields in neutron stars)
-├── SUMMARY.md             (This file)
-└── SELECT_PAPER.md        (Your selection goes here)
-```
+1. **Read summaries above**
+2. **Pick your favorite paper** — Reply in Telegram with the arxiv ID (e.g., "2603.03284")
+3. **I'll write full blog post** — 800-1200 words with examples, analogies, context
+4. **You publish** — Copy to Substack/Medium + Twitter + Reddit
 
 ---
 
-## Research Notes
-
-All three papers represent recent theoretical/observational advances in fundamental physics:
-- **Option 1** connects observations to dark matter models (cosmology angle)
-- **Option 2** explores quantum vacuum physics with breaking of fundamental symmetries (QFT angle)
-- **Option 3** studies exotic matter under extreme gravitational conditions (astrophysics angle)
-
-Each has clear blog-friendly angles and avoids being overly technical while remaining scientifically substantive.
+**To access a paper:** Go to arxiv.org and search for the ID, or type: arxiv.org/abs/[ID]
