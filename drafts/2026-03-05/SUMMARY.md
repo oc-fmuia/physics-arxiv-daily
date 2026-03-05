@@ -1,7 +1,7 @@
 # Daily ArXiv Summary — 2026-03-05
 
 **Status:** ✅ Papers fetched and ready for review
-**Generated:** 2026-03-05 12:50 UTC
+**Generated:** 2026-03-05 13:03 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 **arXiv ID:** 2603.04401v1
 **Authors:** Olga Garcia-Gallego, Vid Iršič, Matteo Viel
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoJTA5V9CrsuohEX9J'}]
+[Summary could not be generated]
 
 ---
 
@@ -22,7 +22,7 @@
 **arXiv ID:** 2603.04397v1
 **Authors:** Sadaf Kadir, Bernardita Ried Guachalla, Sihan Yuan
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoK6rTMQ7XeJHoKhHE'}]
+[Summary could not be generated]
 
 ---
 
@@ -34,7 +34,7 @@
 **arXiv ID:** 2603.04401v1
 **Authors:** Olga Garcia-Gallego, Vid Iršič, Matteo Viel
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoKiotKutN9eTQRCSc'}]
+[Summary could not be generated]
 
 ---
 
@@ -43,7 +43,7 @@
 **arXiv ID:** 2603.04375v1
 **Authors:** Oem Trivedi, Alfredo Gurrola, Robert J. Scherrer
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoLPzHM8Kj31StfisD'}]
+[Summary could not be generated]
 
 ---
 
@@ -55,7 +55,7 @@
 **arXiv ID:** 2603.04401v1
 **Authors:** Olga Garcia-Gallego, Vid Iršič, Matteo Viel
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoM4BHuJPUEUR5xbvY'}]
+[Summary could not be generated]
 
 ---
 
@@ -64,7 +64,7 @@
 **arXiv ID:** 2603.04394v1
 **Authors:** Luca Di Luzio, Marco Nardecchia, Stefano Scacco
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoMjrPT52saee3W1qy'}]
+[Summary could not be generated]
 
 ---
 
@@ -76,7 +76,7 @@
 **arXiv ID:** 2603.04400v1
 **Authors:** Argelia Bernal, Víctor Jaramillo, Néstor A. Montiel-Hernández
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoNQnZ2TLUtS27PZRr'}]
+[Summary could not be generated]
 
 ---
 
@@ -85,7 +85,7 @@
 **arXiv ID:** 2603.04375v1
 **Authors:** Oem Trivedi, Alfredo Gurrola, Robert J. Scherrer
 
-[Summary generation failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4'}, 'request_id': 'req_011CYjxoP6DGE191osDfE38n'}]
+[Summary could not be generated]
 
 ---
 
