@@ -48,9 +48,7 @@ physics-arxiv-daily/
 - **What:** Automated cron job fetches 2-3 interesting ArXiv papers
 - **Where:** Papers land in `drafts/YYYY-MM-DD/`
 - **Files created:**
-  - `paper-option-{1,2,3}.md` — metadata, authors, abstract, link
-  - `SUMMARY.md` — quick overview of all 3
-  - `SELECT_PAPER.md` — selection form
+  - `SUMMARY.md` — overview of all 3 papers with ArXiv links
 
 ### 2. **Your Review (Morning, ~15 mins)**
 - Read the 3 options in GitHub
