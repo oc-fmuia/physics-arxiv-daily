@@ -10,35 +10,46 @@ Daily breakdowns of cutting-edge physics papers. Layman's language, catchy expla
 
 ## Repository Structure
 
+This repo follows a **daily folder + per-paper subfolder** structure.
+
 ```
 physics-arxiv-daily/
-├── README.md                          # This file
-├── CLOSING_PARAGRAPH.md               # Template footer for all blog posts
-├── PROGRESS.md                        # Metrics & engagement tracking
+├── README.md
+├── CLOSING_PARAGRAPH.md
+├── PROGRESS.md
 │
 ├── drafts/
-│   ├── YYYY-MM-DD/                   # Daily draft papers (pre-publication)
-│   │   ├── paper-option-1.md         # ArXiv paper metadata + abstract
-│   │   ├── paper-option-2.md
-│   │   ├── paper-option-3.md
-│   │   ├── SUMMARY.md                # Quick overview of all 3 options
-│   │   └── SELECT_PAPER.md           # Selection workflow
+│   ├── YYYY-MM-DD/
+│   │   ├── SUMMARY.md
+│   │   └── <paper-slug>/                     # e.g. decaying-dark-matter/
+│   │       ├── paper.md                      # metadata + abstract
+│   │       ├── blog-post.md                  # final blog post draft
+│   │       ├── twitter-thread.md             # platform draft
+│   │       └── reddit-post.md                # platform draft
 │   │
 │   └── 2026-03-04/
-│       ├── paper-option-1.md
-│       ├── paper-option-2.md
-│       ├── paper-option-3.md
 │       ├── SUMMARY.md
-│       └── SELECT_PAPER.md
+│       └── decaying-dark-matter/
+│           ├── blog-post.md
+│           ├── paper.md
+│           ├── reddit-post.md
+│           └── twitter-thread.md
 │
 ├── published/
-│   ├── 2026-02-24-dark-matter-evidence.md      # Full blog post (after publication)
-│   ├── 2026-02-25-gravitational-waves.md
+│   ├── YYYY-MM-DD-<slug>.md                  # Full blog post after publication
 │   └── ...
 │
 └── archive/
-    └── 2026-02/                      # Monthly archives (deprecated drafts)
+    └── YYYY-MM/                              # Monthly archives
 ```
+
+**Hard rule:** after a paper is selected, all related artifacts live under the same slug folder:
+- `paper.md`
+- `blog-post.md`
+- `twitter-thread.md`
+- `reddit-post.md`
+
+This keeps daily work self-contained and consistent.
 
 ---
 
@@ -56,10 +67,16 @@ physics-arxiv-daily/
 - Reply in Telegram: "option-1" (or 2, or 3)
 
 ### 3. **Blog Post Generation (After your pick)**
-- I write full blog post (800-1200 words)
-- Generate Twitter thread + Reddit post
-- Push to `drafts/YYYY-MM-DD/blog-post.md`
-- Send you Telegram link for final review
+- I create a slug folder: `drafts/YYYY-MM-DD/<paper-slug>/`
+- I write the full blog post (800–1200 words) following `BLOG_STYLE.md`
+- I generate platform drafts (Twitter + Reddit)
+- I push **all** artifacts into that folder:
+  - `paper.md`
+  - `blog-post.md`
+  - `twitter-thread.md`
+  - `reddit-post.md`
+- I update `drafts/YYYY-MM-DD/SUMMARY.md` to point to the slug folder
+- Then I send you the GitHub link for review
 
 ### 4. **Publishing (Your call, ~15 mins)**
 - You review blog post
